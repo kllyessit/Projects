@@ -1,0 +1,34 @@
+body {
+    background-image: url("./images/concert.png");
+    background-repeat: no-repeat, repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: block;
+}
+p {
+    font-size: 2.5rem;
+    color: #ffffcc;
+}
+.keys {
+    opacity: 0.8;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-left: 18%;
+}
+.key {
+    float: left;
+    margin-left: 2%;
+    border-radius: 0.313rem;
+    border-style: solid;
+    border-color: #b3b3b3;
+    border-width: thin;
+    width: 5rem;
+}
+.sound {
+    font-size: 0.938rem;
+}
