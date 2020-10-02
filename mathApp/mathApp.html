@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Math App</title>
+    <link rel="stylesheet" href="mathApp.css">
+    <script src="mathApp.js"></script>
+</head>
+
+<body>
+<h1 id="header">Ready?</h1>
+<button id="start" onclick="display()">Start</button>
+<div id="container" class="hidden">
+    <div id="equation">
+        <div id="firstNum">0</div>
+        <div id="equKind" >+</div>
+        <div id="secondNum">0</div>
+        <div id="equal">=</div>
+        <input type="text" id="text">
+    </div>
+</div>
+<button id="submit" class="hidden" onclick="correct()">Submit</button>
+</body>
+</html>

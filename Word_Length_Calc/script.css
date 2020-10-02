@@ -1,0 +1,33 @@
+body {
+    background-color: #8A817C;
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+    display: block;
+}
+#header {
+    margin: auto;
+}
+#text-frame {
+    width: 21.875rem;
+    height: 2.5rem;
+    text-align: center;
+    border-color: #F4F3EE;
+    margin-top: 5rem;
+}
+#output {
+    margin: auto;
+    margin-top: 5rem;
+    width: 5rem;
+    height: 4rem;
+    font-size: 3rem;
+    background-color: #E0AFA0;
+}
+
+button {
+    margin-top: 5rem;
+    width: 10rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 2rem;
+}

@@ -1,0 +1,88 @@
+body {
+    background-color: #2081C3;
+    width: 100%;
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+}
+h1 {
+    margin: auto;
+    font-size: 4.5rem;
+}
+#start {
+    margin-top: 2.75rem;
+    height: 5rem;
+    width: 10rem;
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: #63D2FF;
+}
+#container.hidden {
+    display: none;
+}
+#container {
+    background-color: #F7F9F9;
+    width: 50rem;
+    height: 11rem;
+    margin: auto;
+}
+#firstNum {
+    border-style: solid;
+    border-color: #BED8D4;
+    border-width: .35rem;
+    width: 8rem;
+    height: 6rem;
+    float: left;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-size: 5rem;
+}
+#equKind {
+    float: left;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+}
+#secondNum {
+    border-style: solid;
+    border-color: #78D5D7;
+    border-width: .35rem;
+    width: 10rem;
+    height: 6rem;
+    float: left;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-size: 5rem;
+}
+#equal {
+    float: left;
+    margin-top: 3rem;
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+#text {
+    float: left;
+    font-size: 1rem;
+    margin-top: 2.75rem;
+    height: 5rem;
+}
+#info.hidden {
+    display: none;
+}
+#info {
+    margin-top: 2.75rem;
+    text-align: center;
+    font-size: 2rem;
+}
+#submit{
+    margin-top: 2.75rem;
+    height: 5rem;
+    width: 10rem;
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: #63D2FF;
+}
+#submit.hidden {
+    display: none;
+}

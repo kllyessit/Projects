@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Word Length Calculator</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="script.css">
+    </head>
+
+    <body>
+        <h1 id="header">Type a word in the box</h1>
+        <form id="form">
+            <input type="text" id="text-frame" name="text-frame" onkeyup="countChar(this)">
+        </form>
+        <div id="output">
+            <p>0</p>
+        </div>
+        <button onclick="reset()" id="reset">Reset</button>
+    </body>
+</html>
