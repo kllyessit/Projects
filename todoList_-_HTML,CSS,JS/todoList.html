@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Todo List</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="todoList.css">
+    </head>
+
+    <body>
+        <!-- Information -->
+        <div class="information">
+            <h1>WORK TO-DOS</h1>
+            <p>Press 'Enter' button to submit</p>
+            <p>Click on task to move to complete</p>
+            <p>Click 'X' to remove task</p>
+            <input type="text" placeholder="New item..." id="userInput">
+            <button id="enter" onclick="addListAfterClick()">Enter</button>
+        </div>
+
+        <div id="tasks" class="content">
+            <h1>Tasks</h1>
+            <div class="list">
+                <ul class="listContent">
+                </ul>
+            </div>
+        </div>
+    <script type="text/javascript" src="todoList.js"></script>
+    </body>
+</html>

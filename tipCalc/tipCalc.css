@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: repeating-linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    text-align: center;
+    font-size: 1.438rem;
+}
+h1 {
+    border-color: purple;
+    background-color: black;
+    border-width: 0.625rem;
+    color: white;
+    border-bottom-style: solid;
+    padding-top: 0.625rem;
+}
+button {
+    color: white;
+    background-color: black;
+    height: 3.125rem;
+    width: 15rem;
+    position: sticky;
+    font-size: 1.563rem;
+    border-radius: 3.125rem;
+    font-weight: bold;
+    display: block;
+    margin: 1.563rem auto;
+}
+input {
+    height: 3.125rem;
+    width: 15.625rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.tipAmount {
+    height: 3.125rem;
+    width: 15.625rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+}
+.calc {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+}
+#amount {
+    background-color: white;
+    font-size: 2.25rem;
+}

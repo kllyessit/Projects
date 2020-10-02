@@ -1,0 +1,68 @@
+/*
+Neon Pink: #ff0099
+Neon Yellow: #f3f315
+Neon Green: #83f52c
+Neon Orange: #ff6600
+Neon Purple: #6e0dd0
+ */
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+    font-size: 2rem;
+}
+button {
+    color: white;
+    font-size: 1.50rem;
+    height: 4rem;
+    width: 5.5rem;
+    background-color: black;
+}
+button:hover {
+    color: black;
+    background-color: white;
+}
+input {
+    height: 3.5rem;
+    font-size: 2rem;
+}
+.content {
+    padding: 1rem 1.25rem;
+    height: 100%;
+}
+.content h1 {
+    border-bottom-style: solid;
+    border-width: 0.313rem;
+    border-color: white;
+    padding-bottom: 1rem;
+}
+ul {
+    font-size: 2rem;
+    list-style: none;
+}
+li {
+    color: white;
+    margin: auto;
+    width: 20rem;
+    border: 0.313rem;
+    border-bottom-style: solid;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
