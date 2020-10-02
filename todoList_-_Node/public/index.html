@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Todo List </title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <!-- Information -->
+        <div class="information">
+            <h1>WORK TO-DOS</h1>
+            <p>Press 'Enter' button to submit</p>
+            <p>Click on task to move to a different status</p>
+            <p>Click 'X' to remove task</p>
+            <P>Drag task to the right once completed</P>
+            <input type="text" placeholder="New item..." id="userInput">
+            <button id="new" onclick="createTask()">New Task</button>
+        </div>
+
+        <!-- Tasks -->
+        <div id="lists" class="listContainer">
+            <div class="list" id="unfinished-tasks">
+            </div>
+            <div class="list" id="finished-tasks">
+            </div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

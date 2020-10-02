@@ -1,0 +1,67 @@
+body {
+    background-color: #cccccc;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: #22181C;
+    color: white;
+    height: 4.5rem;
+    font-size: 2rem;
+    padding-top: 2rem;
+    width: 42.25rem;
+    margin: auto;
+}
+section {
+    background-color: #0E1C36;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 42.25rem;
+    margin: auto;
+    color: white;
+}
+button {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 1rem;
+}
+input {
+    color: black;
+}
+article {
+    margin: auto;
+    vertical-align:top;
+    display:inline-block;
+    width: 41.22rem;
+    height: 50rem;
+    background-color: white;
+    border-width: .001rem;
+    border-color: black;
+    border-style: solid;
+    padding: .5rem;
+}
+.PENDING {
+    background-color: blue;
+    border-radius: 8px;
+    padding: 0.938rem 1.25rem;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-size: 15px;
+}
+.COMPLETED {
+    background-color: green;
+    border-radius: 8px;
+    padding: 0.938rem 1.25rem;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    font-size: 15px;
+}
+.remove {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 10rem;
+}
